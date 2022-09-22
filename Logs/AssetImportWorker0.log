@@ -268,3 +268,27 @@ Received Import Request.
 Start importing Assets/Prefabs/Alien.prefab using Guid(d4aecd3802c427342a09e4e26c3348fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42751801b878eaa6822a259dea87ba93') in 0.076169 seconds 
   Import took 0.079526 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 487.046596 seconds.
+  path: Assets/Textures/Import/Bobble Wars Enemy texture.psd
+  artifactKey: Guid(b9bf0b737e674433d8948f8f855969fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Import/Bobble Wars Enemy texture.psd using Guid(b9bf0b737e674433d8948f8f855969fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ab6c79545c140456e50539bb3fa7be') in 0.039234 seconds 
+  Import took 0.041680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Textures/Import/Bobble Wars Marine texture.psd
+  artifactKey: Guid(8e73919eca0a747faadef4a8f85780cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Import/Bobble Wars Marine texture.psd using Guid(8e73919eca0a747faadef4a8f85780cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039c7cc87f277924e078674ee7343a4a') in 0.021132 seconds 
+  Import took 0.023903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Textures/Bobble Wars Marine texture.psd
+  artifactKey: Guid(0033e476cde071b449068d2544da4af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bobble Wars Marine texture.psd using Guid(0033e476cde071b449068d2544da4af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79f6bf0c11313ff0a5dbdaaaea7a4a3') in 0.014387 seconds 
+  Import took 0.016685 seconds .
+
