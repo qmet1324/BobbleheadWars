@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7114262666259326665}
   - component: {fileID: 7114262666266478889}
+  - component: {fileID: 4138598553605571151}
   m_Layer: 0
   m_Name: BobbleArena-Column
   m_TagString: Untagged
@@ -53,6 +54,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &4138598553605571151
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7114262666259102441}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.07, y: 5.25, z: 2}
+  m_Center: {x: 0, y: 2.66, z: 0}
 --- !u!1 &7114262666259102443
 GameObject:
   m_ObjectHideFlags: 0

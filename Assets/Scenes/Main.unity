@@ -606,8 +606,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 584974225}
-  - component: {fileID: 584974226}
   - component: {fileID: 584974227}
+  - component: {fileID: 584974226}
   m_Layer: 0
   m_Name: SpaceMarine
   m_TagString: Untagged
@@ -631,22 +631,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &584974226
-Rigidbody:
+--- !u!143 &584974226
+CharacterController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 584974224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Height: 11.08
+  m_Radius: 2.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: -1.82, y: 6.53, z: 0.7}
 --- !u!114 &584974227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -942,7 +944,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1218467896}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &878297266
+--- !u!64 &878297267
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1540,6 +1542,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1501163253, guid: d4aecd3802c427342a09e4e26c3348fc, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3731016328504750916, guid: d4aecd3802c427342a09e4e26c3348fc,
         type: 3}
       propertyPath: m_RootOrder
