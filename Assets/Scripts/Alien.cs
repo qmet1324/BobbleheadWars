@@ -29,4 +29,8 @@ public class Alien : MonoBehaviour
             }
         }
     }
+    void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+    }
 }
