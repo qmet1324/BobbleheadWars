@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7114262666259326665}
   - component: {fileID: 7114262666266478889}
   - component: {fileID: 4138598553605571151}
+  - component: {fileID: 3368637511854330345}
   m_Layer: 0
   m_Name: BobbleArena-Column
   m_TagString: Untagged
@@ -67,6 +68,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.07, y: 5.25, z: 2}
   m_Center: {x: 0, y: 2.66, z: 0}
+--- !u!208 &3368637511854330345
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7114262666259102441}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.035, y: 2.135, z: 1}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 2.3, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &7114262666259102443
 GameObject:
   m_ObjectHideFlags: 0
