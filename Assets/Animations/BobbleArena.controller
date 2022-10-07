@@ -91,7 +91,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isLowered
+    m_ConditionEvent: IsLowered
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6525145094326787511}
@@ -116,7 +116,7 @@ AnimatorController:
   m_Name: BobbleArena
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: isLowered
+  - m_Name: IsLowered
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -193,7 +193,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: isLowered
+    m_ConditionEvent: IsLowered
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2422962922530710050}
