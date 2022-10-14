@@ -600,6 +600,24 @@ Transform:
   m_Father: {fileID: 1212514299}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &277417051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000014094683372, guid: 166b5f35267b23d418446eb9650c0efc,
+    type: 3}
+  m_PrefabInstance: {fileID: 319671179}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &277417052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277417051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b294efe5ea0242045bfcefa3cb9307e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &282840810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,80 +1577,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 93576df0457ab4d6e83debcd94a50b3b, type: 3}
---- !u!1001 &895930180
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 198000011603593533, guid: d4aecd3802c427342a09e4e26c3348fc,
-        type: 3}
-      propertyPath: CollisionModule.m_Planes.Array.data[0]
-      value: 
-      objectReference: {fileID: 1653999723}
-    - target: {fileID: 3731016328504750916, guid: d4aecd3802c427342a09e4e26c3348fc,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731016328504750916, guid: d4aecd3802c427342a09e4e26c3348fc,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731016328504750916, guid: d4aecd3802c427342a09e4e26c3348fc,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 13.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731016328504750916, guid: d4aecd3802c427342a09e4e26c3348fc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 8.41
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731016328504750916, guid: d4aecd3802c427342a09e4e26c3348fc,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731016328504750916, guid: d4aecd3802c427342a09e4e26c3348fc,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731016328504750916, guid: d4aecd3802c427342a09e4e26c3348fc,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731016328504750916, guid: d4aecd3802c427342a09e4e26c3348fc,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731016328504750916, guid: d4aecd3802c427342a09e4e26c3348fc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731016328504750916, guid: d4aecd3802c427342a09e4e26c3348fc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731016328504750916, guid: d4aecd3802c427342a09e4e26c3348fc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3731016328504750917, guid: d4aecd3802c427342a09e4e26c3348fc,
-        type: 3}
-      propertyPath: m_Name
-      value: Alien
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d4aecd3802c427342a09e4e26c3348fc, type: 3}
 --- !u!1001 &963071171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2585,6 +2529,7 @@ MonoBehaviour:
   - {fileID: 418351571}
   alien: {fileID: 3731016328504750917, guid: d4aecd3802c427342a09e4e26c3348fc, type: 3}
   upgradePrefab: {fileID: 105092, guid: 941d6224549424c91b1cf112b44ec0cb, type: 3}
+  deathFloor: {fileID: 1653999722}
   gun: {fileID: 749228793}
   maxAliensOnScreen: 50
   totalAliens: 50

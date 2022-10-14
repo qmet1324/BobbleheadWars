@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public GameObject[] spawnPoints;
     public GameObject alien;
     public GameObject upgradePrefab;
+    public GameObject deathFloor;
     public Gun gun;
 
     public int maxAliensOnScreen;
@@ -110,6 +111,7 @@ public class GameManager : MonoBehaviour
 
                         alienScript.OnDestroy.AddListener(AlienDestroyed);
 
+                        alienScript.GetDeathParticles().SetDeathFloor(deathFloor);
                     }
                 }
             }
