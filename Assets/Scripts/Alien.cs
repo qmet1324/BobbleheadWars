@@ -22,7 +22,6 @@ public class Alien : MonoBehaviour
     {
         OnDestroy.Invoke();
         OnDestroy.RemoveAllListeners();
-
         Destroy(gameObject);
     }
 
