@@ -62,9 +62,10 @@
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Test.cs" />
-    <Compile Include="Assets\Scripts\Alien.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\Alien.cs" />
     <Compile Include="Assets\Scripts\Upgrade.cs" />
+    <Compile Include="Assets\Scripts\SelfDestruct.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
