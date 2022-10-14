@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Upgrade.cs" />
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
     <Compile Include="Assets\Scripts\DeathParticles.cs" />
+    <Compile Include="Assets\Scripts\Arena.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
