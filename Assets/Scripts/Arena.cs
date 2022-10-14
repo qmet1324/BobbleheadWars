@@ -25,7 +25,10 @@ public class Arena : MonoBehaviour
 
         arenaAnimator.SetBool("OnElevator", true);
         SoundManager.Instance.PlayOneShot(SoundManager.Instance.elevatorArrived);
-
+    }
+    public void ActivatePlatform()
+    {
+        sphereCollider.enabled = true;
     }
     // Update is called once per frame
     void Update()
