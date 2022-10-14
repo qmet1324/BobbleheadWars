@@ -35,6 +35,36 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!244 &-1169286969304861214
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: f47e37337cb7aae459ac985a19fd8100
+  m_EffectName: Chorus
+  m_MixLevel: 7e2a82994a156e7479f71a9abfcbec77
+  m_Parameters:
+  - m_ParameterName: Dry mix
+    m_GUID: 7b02e6e2df6bf5740980a28b80978a35
+  - m_ParameterName: Wet mix tap 1
+    m_GUID: 2d7f08dafb9b8cf41a1619bbf1cc232d
+  - m_ParameterName: Wet mix tap 2
+    m_GUID: 340cabacb4b585a4e81156287ef543d5
+  - m_ParameterName: Wet mix tap 3
+    m_GUID: d1380c956c6a3aa4ea1cafe35ac3ba1c
+  - m_ParameterName: Delay
+    m_GUID: b545f2f75af0edb47810225932bb6cd3
+  - m_ParameterName: Rate
+    m_GUID: 022a859e59c33164a9a455c736700947
+  - m_ParameterName: Depth
+    m_GUID: 0640c41630dca4d449ebf9b01fc99471
+  - m_ParameterName: Feedback
+    m_GUID: 91a70673e9d04f74f89be39e8b7cd201
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &-944938896514295387
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -50,6 +80,7 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 8245515239872261884}
+  - {fileID: -1169286969304861214}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -125,7 +156,11 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 9999f65a933b9c54fbefb12ea48a57a7
   m_FloatValues:
-    77fb3b57160c57948ab8924e2ba692c9: -19.928473
+    0640c41630dca4d449ebf9b01fc99471: 0.93
+    c515ddd6967dee64fa8598e9c69b9e13: -9.332112
+    77fb3b57160c57948ab8924e2ba692c9: -19.928463
+    236ff3ce51bdca04bb4d6460e95af03d: -7.8940816
+    2d9007af30a2ec04c9f601bfa53875ba: -2.8722944
   m_TransitionOverrides: {}
 --- !u!244 &453065420139541470
 AudioMixerEffectController:
@@ -190,7 +225,7 @@ AudioMixerGroupController:
   m_Effects:
   - {fileID: -8863640741562986095}
   m_UserColorIndex: 0
-  m_Mute: 1
+  m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
 --- !u!244 &8245515239872261884
